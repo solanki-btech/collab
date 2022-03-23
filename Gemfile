@@ -7,6 +7,8 @@ ruby '3.0.0'
 gem 'rails', '~> 6.0.4', '>= 6.0.4.7'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
+# Add Devise
+gem 'devise'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
@@ -29,6 +31,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'bootstrap-sass', '~> 3.3.6'
+
+gem 'bootstrap_form'
 
 gem 'jquery-rails'
 
