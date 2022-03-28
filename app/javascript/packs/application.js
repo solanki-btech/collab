@@ -12,6 +12,7 @@ global.$ = require('jquery')
 
 
 import "../posts/style";
+import "../posts/modal"
 
 
 
